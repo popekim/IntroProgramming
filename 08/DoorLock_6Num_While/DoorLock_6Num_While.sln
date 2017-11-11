@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorLock_6Num_While", "DoorLock_6Num_While\DoorLock_6Num_While.csproj", "{0A081F7B-36F4-4DD3-8291-6E2EF7C3D259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A081F7B-36F4-4DD3-8291-6E2EF7C3D259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A081F7B-36F4-4DD3-8291-6E2EF7C3D259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A081F7B-36F4-4DD3-8291-6E2EF7C3D259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A081F7B-36F4-4DD3-8291-6E2EF7C3D259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB1D3DC-5C7B-410D-8818-DCBF72692E79}
+	EndGlobalSection
+EndGlobal

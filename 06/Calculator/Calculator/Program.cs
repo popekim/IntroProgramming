@@ -6,11 +6,11 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("첫번째 숫자를 입력하세요.");
+            Console.WriteLine("첫 번째 숫자를 입력하세요.");
             int number1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("두번째 숫자를 입력하세요.");
+            Console.WriteLine("두 번째 숫자를 입력하세요.");
             int number2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("연산기호를 입력하세요.");
+            Console.WriteLine("연신지를 입력하세요.");
             string inputOperator = Console.ReadLine();
 
             Console.Write(number1);

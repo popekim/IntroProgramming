@@ -16,7 +16,6 @@ namespace Variable
 
             Console.Write(appleCountDescription);
             Console.WriteLine(appleCount);
-
         }
     }
 }

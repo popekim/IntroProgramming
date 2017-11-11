@@ -40,7 +40,7 @@ namespace StudentList
             {
                 Console.Write("0에서 ");
                 Console.Write(studentCount - 1);
-                Console.WriteLine("사이의 숫자를 입력하세요.");
+                Console.WriteLine(" 사이의 숫자를 입력하세요.");
             }
         }
     }

@@ -6,7 +6,7 @@ namespace Echo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("글자를 입력하고 엔터키를 누르세요.");
+            Console.WriteLine("글자를 입력하고 엔터 키를 누르세요.");
             string userInput = Console.ReadLine();
 
             Console.Write("입력한 글은 ");
