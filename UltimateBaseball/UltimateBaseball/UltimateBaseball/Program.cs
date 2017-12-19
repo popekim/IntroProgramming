@@ -25,17 +25,17 @@ namespace UltimateBaseball
             {
                 numbers[index] = random.Next(0, 10);
 
-                bool isSameNumer = false;
+                bool hasDuplicate = false;
                 for (int j = 0; j < index; j++)
                 {
                     if (numbers[index] == numbers[j])
                     {
-                        isSameNumer = true;
+                        hasDuplicate = true;
                         break;
                     }
                 }
 
-                if (!isSameNumer)
+                if (!hasDuplicate)
                 {
                     index++;
                 }
