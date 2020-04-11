@@ -86,11 +86,11 @@ namespace UltimateBaseball
                     }
                 }
 
-                Console.Write("스트라이크 ");
+                Console.Write("스트라이크: ");
                 Console.WriteLine(strikeCount);
-                Console.Write("볼 ");
+                Console.Write("볼: ");
                 Console.WriteLine(ballCount);
-                Console.Write("아웃 ");
+                Console.Write("아웃: ");
                 Console.WriteLine(3 - strikeCount - ballCount);
 
                 if (strikeCount == 3)
