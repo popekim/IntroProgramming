@@ -25,17 +25,17 @@ namespace DoorLock_6Num_Random
 
             while (true)
             {
-                for (int userInputNumber = 0; userInputNumber < passcodeLength; userInputNumber++)
+                for (int passcodeIndex = 0; passcodeIndex < passcodeLength; passcodeIndex++)
                 {
-                    Console.Write(userInputNumber);
+                    Console.Write(passcodeIndex);
                     Console.WriteLine("번째 숫자를 넣어주세요.");
-                    userInput[userInputNumber] = int.Parse(Console.ReadLine());
+                    userInput[passcodeIndex] = int.Parse(Console.ReadLine());
                 }
 
                 bool isCorrectPassword = true;
-                for (int userInputNumber = 0; userInputNumber < passcodeLength; userInputNumber++)
+                for (int passcodeIndex = 0; passcodeIndex < passcodeLength; passcodeIndex++)
                 {
-                    if (userInput[userInputNumber] != passcodeNumbers[userInputNumber])
+                    if (userInput[passcodeIndex] != passcodeNumbers[passcodeIndex])
                     {
                         isCorrectPassword = false;
                         Console.WriteLine("비밀번호가 틀렸습니다.");
