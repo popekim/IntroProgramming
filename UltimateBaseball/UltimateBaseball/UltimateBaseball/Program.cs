@@ -26,9 +26,9 @@ namespace UltimateBaseball
                 numbers[index] = random.Next(0, 10);
 
                 bool hasDuplicate = false;
-                for (int j = 0; j < index; j++)
+                for (int i = 0; i < index; i++)
                 {
-                    if (numbers[index] == numbers[j])
+                    if (numbers[index] == numbers[i])
                     {
                         hasDuplicate = true;
                         break;
