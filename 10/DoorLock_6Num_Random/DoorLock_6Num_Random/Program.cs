@@ -32,18 +32,18 @@ namespace DoorLock_6Num_Random
                     userInput[userInputNumber] = int.Parse(Console.ReadLine());
                 }
 
-                bool correctPassword = true;
+                bool isCorrectPassword = true;
                 for (int userInputNumber = 0; userInputNumber < passcodeLength; userInputNumber++)
                 {
                     if (userInput[userInputNumber] != passcodeNumbers[userInputNumber])
                     {
-                        correctPassword = false;
+                        isCorrectPassword = false;
                         Console.WriteLine("비밀번호가 틀렸습니다.");
                         break;
                     }
                 }
 
-                if (correctPassword)
+                if (isCorrectPassword)
                 {
                     Console.WriteLine("문이 열렸습니다.");
                     break;
